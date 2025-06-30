@@ -1,0 +1,108 @@
+/* --- */
+/* description: | 
+/*   Contains custom style directives which are intended to be */
+/*   applied posterior to black.css of reveal.js */
+/* --- */
+
+/* --- */
+
+body, .reveal {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.5em;
+  /* max-width: 700px; */
+  /* margin: 4em auto;
+  padding: 0 1em;
+  line-height: 1.6;
+  background: #fafafa;
+  color: #222; */
+}
+
+pre, code {
+  background: #eee;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9em;
+}
+
+/* smallcaps */
+.sc {
+  font-feature-settings: "smcp";
+}
+
+.reveal a,
+.reveal .controls,
+.reveal .progress span {
+  color: #ff0073 !important;         
+  /* background-color: #b22222 !important; */
+  /* border-color: #b22222 !important; */
+}
+.reveal a:hover {
+  color: #f9e900 !important;
+}
+
+/* Transition behaviour for slide elements */
+.reveal .slides section {
+  transition:
+    opacity 1.6s ease-in-out,
+    transform 0.6s ease-in-out;
+}
+
+.reveal {
+  background-color: #111 !important; /* deep black, less harsh */
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: 'Crimson Pro', serif;
+  font-feature-settings: "smcp";
+  font-variant-caps: small-caps;
+  /* prevent uppercase override from theme */
+  text-transform: none;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.reveal .slides section {
+  opacity: 0;
+  transform: translateY(1rem);
+  filter: blur(1.5px);
+  transition:
+    opacity 0.8s ease-in-out,
+    transform 0.8s ease-in-out,
+    filter 0.6s ease-in-out;
+}
+
+/* Active (visible) slide state */
+.reveal .slides section.present {
+  opacity: 1;
+  transform: translateY(0);
+  filter: none;
+}
+
+/* Slide image-text layout */
+.slide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.image-column img {
+  width: 100%;                
+  max-width: 20rem;          
+  aspect-ratio: 1 / 1;      
+  object-fit: cover;         
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+.text-column {
+  font-size: 0.8em;
+  line-height: 1.6;
+  text-align: left;
+  direction: ltr;
+}
