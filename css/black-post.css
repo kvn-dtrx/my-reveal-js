@@ -55,6 +55,7 @@ pre, code {
 }
 
 .reveal {
+  /* background-color: #111 !important; deep black, less harsh */
   background-color: #111 !important; /* deep black, less harsh */
 }
 
@@ -90,6 +91,20 @@ pre, code {
   filter: none;
 }
 
+figure {
+  display: inline-block;       /* shrink-wrap to image width */
+  margin: 0;                   /* remove default margins */
+}
+
+figcaption {
+  font-size: 0.75em;
+  color: gray;
+  margin-top: 0.2em;           /* small gap, adjust as needed */
+  line-height: 1.2;
+  text-align: center;
+}
+
+
 /* Slide image-text layout */
 .slide-grid {
   display: grid;
@@ -111,6 +126,7 @@ pre, code {
   line-height: 1.6;
   text-align: left;
   direction: ltr;
+<<<<<<< Updated upstream
 }
 
 :root {
