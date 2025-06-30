@@ -6,6 +6,12 @@
 
 /* --- */
 
+/* <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:opsz,wght@10..20,400;10..20,700&display=swap" rel="stylesheet"> */
+/* <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet"> */
+/* @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:opsz,wght@10..20,400;10..20,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap'); */
+
+
 body, .reveal {
   font-family: 'Crimson Pro', serif;
   font-size: 1.5em;
@@ -105,4 +111,54 @@ pre, code {
   line-height: 1.6;
   text-align: left;
   direction: ltr;
+}
+
+:root {
+  --primary-pink: #ff0073;
+}
+
+.col-emph {
+  color: var(--primary-pink) !important;
+  font-weight: bold !important;
+}
+
+.emph {
+  font-weight: bold;
+}
+
+.answer {
+  color: var(--primary-pink);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+figure {
+  display: inline-block;       /* shrink-wrap to image width */
+  margin: 0;                   /* remove default margins */
+}
+
+figcaption {
+  font-size: 0.15em;
+  color: gray;
+  margin-top: -3.0em;           /* small gap, adjust as needed */
+  line-height: 1.2;
+  text-align: center;
+}
+
+.image-wrapper {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
+
+.image-wrapper img {
+  display: block;
+  margin: 0;
+}
+
+.image-wrapper .caption {
+  font-size: 0.2em;
+  color: gray;
+  margin-top: 0.2em;
+  line-height: 1.2;
 }
