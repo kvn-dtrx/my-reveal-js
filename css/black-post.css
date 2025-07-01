@@ -44,7 +44,7 @@ pre, code {
   /* border-color: #b22222 !important; */
 }
 .reveal a:hover {
-  color: #f9e900 !important;
+  color: #ff00bf !important;
 }
 
 /* Transition behaviour for slide elements */
@@ -179,6 +179,15 @@ figcaption {
   line-height: 1.2;
 }
 
+.reveal .image-wrapper .caption a {
+  color: gray !important;
+  text-decoration: none !important;
+}
+
+.reveal .image-wrapper .caption a:hover {
+  color: darkgray !important;
+}
+
 .headline-block {
   text-align: left;
   margin-bottom: 2rem;  /* spacing between blocks if reused */
@@ -191,4 +200,20 @@ figcaption {
 .headline-block ul {
   margin-top: 0;
   padding-left: 1.5em; /* default UL indent */
+}
+
+.reveal .colophon {
+  font-size: 0.6em;
+  color: gray;
+  line-height: 1.4;
+}
+
+.reveal .colophon a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.reveal .colophon a:hover {
+  color: darkgray;
+  text-decoration: underline;
 }
