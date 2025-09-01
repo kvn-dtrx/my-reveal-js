@@ -1,0 +1,7 @@
+project:
+  name: My Reveal.js
+  description: Custom configurations for Hakim El's Reveal.js framework
+  github: https://github.com/kvn-dtrx/my-reveal-js
+  authors:
+    - name: Kvn Dtrx
+      mail: kvn.dtrx+git@protonmail.ch
