@@ -1,5 +1,5 @@
 /* --- */
-/* description: | 
+/* description: |
 /*   Contains custom style directives which are intended to be */
 /*   applied posterior to black.css of reveal.js */
 /* --- */
@@ -52,7 +52,7 @@ pre, code {
 .reveal a,
 .reveal .controls,
 .reveal .progress span {
-  color: #ff0073 !important;         
+  color: #ff0073 !important;
   /* background-color: #b22222 !important; */
   /* border-color: #b22222 !important; */
 }
@@ -69,7 +69,7 @@ pre, code {
 
 .reveal {
   /* deep black, less harsh */
-  background-color: #111 !important; 
+  background-color: #111 !important;
 }
 
 .reveal h1,
@@ -117,10 +117,10 @@ pre, code {
 }
 
 .image-column img {
-  width: 100%;                
-  max-width: 20rem;          
-  aspect-ratio: 1 / 1;      
-  object-fit: cover;         
+  width: 100%;
+  max-width: 20rem;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
 }

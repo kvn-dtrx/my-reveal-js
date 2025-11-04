@@ -1,4 +1,4 @@
-# my-reveal-js
+# My Reveal.js
 
 ## Synopsis
 
