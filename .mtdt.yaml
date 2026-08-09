@@ -1,7 +1,16 @@
 project:
-  name: My Reveal.js
-  description: Custom configurations for Hakim El's Reveal.js framework
-  github: https://github.com/kvn-dtrx/my-reveal-js
+  id: e88a005d-b9ab-4343-8f33-d62fea46abc1
+  name: Reveal Js Wrap
+  description: >-
+    Small wrap and custom configuration for Hakim El's Reveal.js framework
   authors:
     - name: Kvn Dtrx
       mail: kvn.dtrx+git@protonmail.ch
+  license:
+    type: MIT
+    year: 2025
+    file: LICENSE.txt
+forges:
+  github:
+    url: https://github.com/kvn-dtrx/reveal-js-wrap
+    visibility: public
