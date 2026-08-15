@@ -9,12 +9,12 @@
 # --- Base ---
 
 # macOS
-._*
 .AppleDouble
 .DS_Store
 .LSOverride
 .Spotlight-V100
 .Trashes
+._*
 * [0-9]
 * [0-9].*
 * copy
@@ -32,24 +32,48 @@ Desktop.ini
 ehthumbs.db
 Thumbs.db
 
-# Logs and temporary files
+# Logs, temporary files, regenerable cache
 *.bak
 *.bak[0-9]*
 *.bkp
+*.cache
 *.log
+*.old
+*.swn
+*.swns
 *.swo
 *.swp
 *.tmp
+*_tmp.*
+build/
+cache/
+.cache/
 log/
+.log/
 logs/
+.logs/
 tmp/
+.tmp/
+
+# Local mountpoints
+mnt/
+mount/
+mounts/
+
+# Scripting-language artefacts
+*.py[cod]
+*.rbc
+.ruby-lsp/
+__pycache__/
 
 # Local environment variables
 .env
 .env.*
-!.env.example
-.envrc
-.envrc.*
-!.envrc.example
+env/
+env.bak/
+
+# Local configuration overrides
+*.local
+*.local.*
 
 # dia:end
